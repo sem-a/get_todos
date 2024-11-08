@@ -1,0 +1,38 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 10px;
+
+    border-bottom: 1 px solid #ddd;
+
+    transition: background-color 0.3 s ease-in-out;
+
+    cursor: pointer;
+}
+li:hover {
+    background-color: #e6ffe6;
+}
+
+.completed {
+    text-decoration-line: strike-through;
+    color: #999;
+}
